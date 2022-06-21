@@ -1,10 +1,11 @@
-//INTERAÇAO COM API
-
 
 let lista = document.querySelector("#lista")
 let tabela = document.querySelector("#tabela")
 let campoBusca = document.querySelector("#campo")
 let btnFiltrar = document.querySelector("#filtrar")
+
+
+//INTERAÇAO COM API
 
 async function carregarDados(){
     const url = "https://swapi.dev/api/people/?format=json"
